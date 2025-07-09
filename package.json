@@ -1,4 +1,13 @@
-"scripts": {
-  "dev": "wrangler dev",
-  "deploy": "wrangler publish"
+{
+  "name": "quirko-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "build": "tsc",
+    "deploy": "wrangler publish"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "wrangler": "^4.24.0"
+  }
 }
