@@ -1,10 +1,4 @@
-{
-  "scripts": {
+"scripts": {
   "build": "tsc",
   "start": "node dist/index.js"
-}
-,
-  "dependencies": {
-    "hono": "^4.0.9"
-  }
 }
