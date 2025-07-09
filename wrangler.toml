@@ -13,7 +13,7 @@ compatibility_date = "2023-12-01"
 # bucket_name = "my-bucket"
 
 main = "src/index.ts"
-node_compat = true
+compatibility_flags = ["nodejs_compat"]
 
 [build]
 command = "npm run build"  
