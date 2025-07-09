@@ -12,6 +12,15 @@ compatibility_date = "2023-12-01"
 # binding = "MY_BUCKET"
 # bucket_name = "my-bucket"
 
+main = "src/index.ts"
+node_compat = true
+
+[build]
+command = "npm run build"  
+
+[assets]
+directory = "./dist" 
+
 [[d1_databases]]
 binding = "DB"
 database_name = "gadgetd1"
